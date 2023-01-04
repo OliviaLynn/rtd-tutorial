@@ -34,3 +34,6 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Solution from https://stackoverflow.com/questions/56336234/build-fail-sphinx-error-contents-rst-not-found
+master_doc = 'index'
